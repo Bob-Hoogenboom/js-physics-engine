@@ -1,0 +1,41 @@
+.Navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: lightcyan;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.Navigation li {
+  float: left;
+}
+
+.Navigation li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.Navigation li a:hover:not(.active) {
+  background-color: #008b8b;
+}
+
+.Navigation li a.active {
+  color: white;
+  background-color: #008b8b;
+}
+
+#kirbySleep img {
+  display: block;
+  width: 200px;
+  height: auto;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
