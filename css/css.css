@@ -1,39 +1,50 @@
+.Text{
+  margin-left:21%;
+  padding: 1px 16px;
+  height:1000px;
+}
+
+
+/* Navigation UI V */
 .Navigation ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  border: 1px solid #e7e7e7;
-  background-color: lightcyan;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-}
+  width: 20%
 
-.Navigation li {
-  float: left;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 
 .Navigation li a {
   display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
+  color: #000;
+  padding: 8px 16px;
   text-decoration: none;
 }
 
 .Navigation li a:hover:not(.active) {
-  background-color: #008b8b;
+  background-color: #555;
+  color: white;
 }
 
 .Navigation li a.active {
+  background-color: #4CAF50;
   color: white;
-  background-color: #008b8b;
 }
 
-#kirbySleep img {
+#ProjectImages img {
+  /* float: left; */
   display: block;
-  width: 200px;
+  width: 25%;
+}
+
+#MAndLDance img {
+  display: block;
+  width: 10%;
   height: auto;
   position: fixed;
   bottom: 10px;

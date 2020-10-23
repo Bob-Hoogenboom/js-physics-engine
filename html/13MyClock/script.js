@@ -42,19 +42,19 @@ function animate(){
 
   context.save();
   context.translate(clockFace.width/2,clockFace.height/2);
-  context.rotate(seconds2Math.PI/60);
+  context.rotate(seconds*2*Math.PI/60);
   context.drawImage(secondHand,-secondHand.width/2,-secondHand.height);
   context.restore();
 
   context.save();
   context.translate(clockFace.width/2,clockFace.height/2);
-  context.rotate(minutes2Math.PI/60);
+  context.rotate(minutes*2*Math.PI/60);
   context.drawImage(minutesHand,-minutesHand.width/2,-minutesHand.height);
   context.restore();
 
   context.save();
   context.translate(clockFace.width/2,clockFace.height/2);
-  context.rotate(hours2Math.PI/12);
+  context.rotate(hours*2*Math.PI/12);
   context.drawImage(hoursHand,-hoursHand.width/2,-hoursHand.height);
   context.restore();
 }
