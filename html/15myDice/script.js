@@ -31,7 +31,7 @@ dice.image.addEventListener('load',()=>{
 
 
 function anime(){
-  context.drawImage(dice.image,(roll-1)sw,0,sh,sw,sh,200,200,sw,sh);
+  context.drawImage(dice.image,(roll-1)*sw,0,sh,sw,sh,200,200,sw,sh);
   console.log(roll)
   scorelist[score + 2] ++;
 }
