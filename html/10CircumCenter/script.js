@@ -33,9 +33,8 @@ lCA = new LinearFunction(1,1);
 
 circumCenter = new Point(50,50,5,"grey",false,"circumCenter");
 
-function anime(XY){
+function anime(){
   // nieuw
-  let A = XY;
 
   context.clearRect(0,0,width,height);
   context.fillStyle = "rgba(0,255,0,0.4)";
