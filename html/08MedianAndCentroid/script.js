@@ -17,7 +17,7 @@ let lAMBC,lBMCA,lCMAB;
 
 
 A = new Point(200,100,10,"red",true,"A");
-B = new Point(300,300,10,"blue",true,"B");
+B = new Point(301,300,10,"blue",true,"B");
 C = new Point(400,100,10,"yellow",true,"C");
 S = new Point(500,100,5,"grey",false);
 

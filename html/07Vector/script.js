@@ -14,11 +14,11 @@ let D,E,F;
 let d,e,f;
 let trans;
 
-A = new Point(200,100,10,"red",true);
-B = new Point(300,300,10,"green",true);
-C = new Point(400,100,10,"yellow",true);
+A = new Point(100,100,10,"red",true);
+B = new Point(200,300,10,"green",true);
+C = new Point(300,100,10,"yellow",true);
 
-D = new Point(500,100,10,"black",false);
+D = new Point(400,100,10,"black",false);
 E = new Point(600,300,10,"dark_grey",false);
 F = new Point(700,100,10,"grey",false);
 
@@ -26,7 +26,7 @@ d = new Vector2d()
 e = new Vector2d()
 f = new Vector2d()
 
-trans = new Vector2d(500,0)
+trans = new Vector2d(300,0)
 
 
 function anime(){

@@ -13,9 +13,9 @@ let A,B,C,ab,bc,ca,altitudeab,altitudebc,altitudeca;
 
 
 
-A = new Point(200,100,10,"red",true,"A");
-B = new Point(300,300,10,"green",true,"B");
-C = new Point(400,100,10,"blue",true,"C");
+A = new Point(200,200,10,"red",true,"A");
+B = new Point(300,400,10,"green",true,"B");
+C = new Point(400,201,10,"blue",true,"C");
 
 ab = new LinearFunction(1,1);
 bc = new LinearFunction(1,1);

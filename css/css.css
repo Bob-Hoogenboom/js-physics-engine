@@ -1,6 +1,7 @@
+/*margin: top right bottom left */
 .Text{
-  margin-left:21%;
-  padding: 1px 16px;
+  margin-left: 20%;
+  padding: 1px ;
   height:1000px;
 }
 
@@ -19,10 +20,11 @@
   overflow: auto;
 }
 
+/*padding: top right bottom left */
 .Navigation li a {
   display: block;
   color: #000;
-  padding: 8px 16px;
+  padding: 4px 4px ;
   text-decoration: none;
 }
 
@@ -38,15 +40,24 @@
 
 #ProjectImages img {
   /* float: left; */
+  border: 1px solid black;
   display: block;
   width: 25%;
+
 }
 
-#MAndLDance img {
+#Gif1 img {
   display: block;
-  width: 10%;
+  width: 15%;
   height: auto;
   position: fixed;
   bottom: 10px;
   right: 10px;
+}
+
+/*when the screen is sized below 800PX margin-left changes*/
+@media screen and (max-width: 800px) {
+  .Text{
+    margin-left: 30%;
+  }
 }

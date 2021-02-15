@@ -11,10 +11,10 @@ canvas.height = height;
 
 let A,B,C,D,S,f,l; //f is a line A-B  l =
 
-A = new Point(100,100,10,"red",true);
-B = new Point(200,200,10,"green",true);
-C = new Point(300,300,10,"yellow",true);
-D = new Point(400,400,10,"blue",true);
+A = new Point(200,200,10,"red",true);
+B = new Point(400,400,10,"green",true);
+C = new Point(200,400,10,"yellow",true);
+D = new Point(400,200,10,"blue",true);
 S = new Point(0,0,5,"grey",false); //is the center point of the lines and should not be draggable
 
 f = new LinearFunction(1,1); //makes slope f

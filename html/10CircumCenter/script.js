@@ -15,9 +15,9 @@ let mAB,mBC,mCA
 let lAB,lBC,lCA
 let circumCenter
 
-A = new Point(200,100,10,"red",true,"A");
-B = new Point(400,400,10,"blue",true,"B");
-C = new Point(600,100,10,"green",true,"C");
+A = new Point(200,200,10,"red",true,"A");
+B = new Point(400,500,10,"blue",true,"B");
+C = new Point(600,201,10,"green",true,"C");
 
 ab = new LinearFunction(1,1);
 bc = new LinearFunction(1,1);
