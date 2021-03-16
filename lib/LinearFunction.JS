@@ -8,6 +8,16 @@ class LinearFunction {
     return x*this.slope + this.intercept;
   }
 
+  throughTwoPoints(A,B){
+    let dx = B.x - A.x;
+    let dy = B.y - A.y;
+
+    this.slope = dy/dx;
+    // y = slope*x + intercept
+    // y - slope*x = intercept
+    this.intercept = A.y - this.slope*A.x;
+  }
+
   intersection(line){ //intersection rekent het snijpunt uit
     //line.slope line.intercept
     let ans = {};
